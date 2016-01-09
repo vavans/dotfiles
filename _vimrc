@@ -1,5 +1,9 @@
 " set windows consolas font
 set guifont=Consolas:h11
+" set linux consolas font gvim
+"set guifont=Consolas\ 11
+" set linux consolas font vim
+"set guifont=Consolas:h11
 
 " enable backspace working as intended for gvim
 set backspace=2
