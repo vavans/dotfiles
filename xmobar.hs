@@ -37,10 +37,10 @@ Config {
                              , "--normal"   , "darkorange"
                              , "--high"     , "darkred"
                              ] 10,
-        Run Date "%a %_d %b %l:%M" "date" 10,
+        Run Date "%a %_d %b %H:%M" "date" 10,
         Run StdinReader
     ],
     sepChar = "%",
     alignSep = "}{",
-    template = "%StdinReader% }{ %multicpu%   %memory%  %dynnetwork%  <fc=#FFFFCC>%date%</fc> %battery%  %RJTT%"
+    template = "%StdinReader% }{ %multicpu%   %memory%  %dynnetwork%   %battery%  %RJTT% <fc=#FFFFCC>%date%</fc>"
 }
